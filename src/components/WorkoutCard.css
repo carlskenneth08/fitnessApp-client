@@ -1,0 +1,28 @@
+/* App.css */
+
+.workout-card {
+    background-color: #d4edda; /* Light green background */
+    border: 1px solid #c3e6cb; /* Slightly darker green border */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.workout-card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+.workout-title {
+    color: #155724; /* Dark green text */
+    font-weight: bold; /* Bold title */
+}
+
+.workout-duration,
+.workout-status,
+.workout-date {
+    color: #6c757d; /* Dark grey text for additional details */
+}
+
+/* Optional: Add some padding */
+.workout-card .card-body {
+    padding: 1.5rem; /* Add padding inside the card */
+}
